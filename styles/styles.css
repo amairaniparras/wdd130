@@ -1,8 +1,8 @@
 nav{
-    background-color: steel blue;
-    padding:10xp;
+    background-color: steelblue;
+    padding:10px;
 }
-nav a{
+nav a {
     color: white;
     display: block;
     padding: 20px;
@@ -15,7 +15,7 @@ img{
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30 gray;
+    box-shadow: 0 0 30px gray;
 }
 p{
     padding: 10px;

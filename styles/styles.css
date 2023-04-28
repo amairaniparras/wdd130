@@ -11,7 +11,7 @@ nav a {
 h1{
     color:steelblue;
 }
-img{
+main img{
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -35,10 +35,6 @@ aside{
 aside img {
     width: 200px;
     height:auto;
-}
-main img{
-    width: 150px;
-    height: auto;
 }
 footer{
     margin-top: 1em;

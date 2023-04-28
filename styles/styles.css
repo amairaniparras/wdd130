@@ -26,10 +26,10 @@ main{
 }
 aside{
     margin:1em;
-    border:1px #9decc7;
+    border:1px solid rgba(0,0,0,0.2);
     padding:1em;
-    background-color: #9decc7;
-    color:#1d1aa2;
+    background-color: #eee;
+    color: #333;
     text-align: center;
 }
 aside img {

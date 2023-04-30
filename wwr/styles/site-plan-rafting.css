@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&family=Source+Sans+Pro&display=swap');
+:root {
+    --primary-color: #284D77;
+    --secondary-color: #F0FDFC;
+    --accent1-color: #7EAAC9;
+    --accent2-color: #B9650A;
+
+    --heading-font:'Braah One', sans-serif;
+    --paragraph-font:'Source sans pro', sans-serif;
+
+    --nav-background-color: #284D77;
+    --nav-link-color: #CECAC8;
+    --nav-hover-link-color: #B9650A;
+    --nav-hover-background-color: #7EAAC9;
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+color: var(--nav-link-color)
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

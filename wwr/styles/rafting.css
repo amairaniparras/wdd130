@@ -13,9 +13,6 @@
     --nav-hover-link-color: #B9650A;
     --nav-hover-background-color: #7EAAC9;
 }
-.info {
-    position: realtive;
-}
 .info img {
     float: right;
     position:absolute;
@@ -52,8 +49,7 @@ h1{
 body{
     font-family: var(--paragraph-font);
     padding: 20px;
-}
- 
+} 
 h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
